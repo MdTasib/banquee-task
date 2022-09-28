@@ -55,7 +55,7 @@ const Bangking = () => {
 	];
 
 	return (
-		<section className='p-10'>
+		<section className='px-10 py-16'>
 			<Container>
 				<div className='grid grid-cols-1 md:grid-cols-2'>
 					<div className=''>
