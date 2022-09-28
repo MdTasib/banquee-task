@@ -11,90 +11,40 @@ import Container from "../shared/Container";
 
 const Footer = () => {
 	return (
-		<footer className='bg-[#E9EEF7]'>
+		<footer className=''>
 			<Container>
 				<div className='footer py-10'>
 					<div>
-						<Link to='/' className='font-bold text-base'>
-							<span className='text-primary'>Doc</span>
-							<span className='text-secondary'>mic</span>
+						<Link to='/' className='font-bold text-2xl text-primary'>
+							banquee.
 						</Link>
-						<p className='pb-10'>
-							Simply dummy text of the <br /> printing and typesetting industry.{" "}
-							<br /> Lorem Ipsum has bee
-						</p>
-						<div className='flex gap-4'>
-							<FaFacebook
-								size={35}
-								className='border-2 p-1 border-gray-300 rounded-full'
-								color='#2D89FF'
-							/>
-							<FaInstagram
-								size={35}
-								className='border-2 p-1 border-gray-300 rounded-full'
-								color='#2D89FF'
-							/>
-							<FaGoogle
-								size={35}
-								className='border-2 p-1 border-gray-300 rounded-full'
-								color='#2D89FF'
-							/>
-							<FaTwitter
-								size={35}
-								className='border-2 p-1 border-gray-300 rounded-full'
-								color='#2D89FF'
-							/>
-							<FaYoutube
-								size={35}
-								className='border-2 p-1 border-gray-300 rounded-full'
-								color='#2D89FF'
-							/>
-						</div>
 					</div>
 					<div>
-						<span className='text-secondary text-sm font-medium'>
-							Quick Links
-						</span>
-						<a className='link link-hover'>About Us</a>
-						<a className='link link-hover'>Our Classes</a>
-						<a className='link link-hover'>School Teachers</a>
-						<a className='link link-hover'>Our News</a>
-						<a className='link link-hover'>Schedule</a>
+						<span className='text-sm font-medium'>About</span>
+						<a className='link link-hover text-sm'>Features</a>
+						<a className='link link-hover text-sm'>Priceing</a>
+						<a className='link link-hover text-sm'>Support</a>
 					</div>
 					<div>
-						<span className='footer-title pb-3'></span>
-						<a className='link link-hover'>Branding</a>
-						<a className='link link-hover'>Design</a>
-						<a className='link link-hover'>Marketing</a>
-						<a className='link link-hover'>Advertisement</a>
+						<span className='text-sm font-medium'>Blog</span>
+						<a className='link link-hover text-sm'>Products</a>
+						<a className='link link-hover text-sm'>Technology</a>
+						<a className='link link-hover text-sm'>Crypto</a>
 					</div>
-					<div className='text-sm'>
-						<span className='text-secondary text-sm font-medium'>
-							Opening Hours
-						</span>
-						<p>
-							<span className='text-primary'>Mon- Tue</span>
-							<span className='pl-10'>08:00 AM- 05:00 PM</span>
-						</p>
-						<p>
-							<span className='text-primary'>Wed- Thu</span>
-							<span className='pl-10'>09:00 AM- 06:00 PM</span>
-						</p>
-						<p>
-							<span className='text-primary'>Fri- Sat</span>
-							<span className='pl-10'>10:00 AM- 07:00 PM</span>
-						</p>
-						<p>
-							<span className='text-primary'>Sunday</span>
-							<span className='pl-10'>Emergency Only</span>
-						</p>
-						<p>
-							<span className='text-primary'>Personal</span>
-							<span className='pl-10'>Mon- 05:00 PM</span>
-						</p>
+					<div>
+						<span className='text-sm font-medium'>Webflow</span>
+						<a className='link link-hover text-sm'>Styleguide</a>
+						<a className='link link-hover text-sm'>Licensing</a>
+						<a className='link link-hover text-sm'>Changelog</a>
+					</div>
+					<div>
+						<span className='text-sm font-medium'>Social Media</span>
+						<a className='link link-hover text-sm'>Twitter</a>
+						<a className='link link-hover text-sm'>Facebook</a>
+						<a className='link link-hover text-sm'>Instagram</a>
 					</div>
 				</div>
-				<div className='footer py-4'>
+				<div className='footer py-4 border-t-2'>
 					<p>
 						Copyright @ {new Date().getFullYear()} Medicom All Rights Reserved
 					</p>
