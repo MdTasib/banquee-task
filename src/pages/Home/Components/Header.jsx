@@ -58,7 +58,7 @@ const Header = () => {
 							</NavLink>
 						</div>
 					</div>
-					<div className='card w-full max-w-sm'>
+					<div className='card w-full max-w-sm m-auto'>
 						<img src={headerImg} alt='' className='max-w-sm' width={250} />
 					</div>
 				</div>
