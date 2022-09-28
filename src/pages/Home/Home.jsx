@@ -3,6 +3,7 @@ import Header from "../Home/Components/Header";
 import Bangking from "./Components/Bangking";
 import Instantly from "./Components/Instantly";
 import SaveingAccount from "./Components/SaveingAccount";
+import Stay from "./Components/Stay";
 
 const Home = () => {
 	return (
@@ -11,6 +12,7 @@ const Home = () => {
 			<Bangking />
 			<Instantly />
 			<SaveingAccount />
+			<Stay />
 		</main>
 	);
 };
