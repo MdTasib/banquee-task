@@ -62,7 +62,7 @@ const Navbar = () => {
 	);
 
 	return (
-		<div className='navbar bg-[#F7F7F7]'>
+		<div className='navbar'>
 			<Container>
 				<div className='navbar-start py-4'>
 					<div className='dropdown'>
